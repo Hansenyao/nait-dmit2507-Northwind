@@ -444,24 +444,6 @@
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
       <Dimensions>
-        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="7cbdd5b1-5187-4d17-9d9f-806c4fb2ca98">
-          <CubeDimensionID>DimOrders</CubeDimensionID>
-          <Attributes>
-            <Attribute dwd:design-time-name="ac3f1b13-d643-4d9b-90ab-3d794369767d">
-              <AttributeID>Order ID</AttributeID>
-              <KeyColumns>
-                <KeyColumn dwd:design-time-name="5238a8f2-1814-4038-83d2-577b42b49a96">
-                  <DataType>Integer</DataType>
-                  <Source xsi:type="ColumnBinding" dwd:design-time-name="74bbc258-c777-467f-bb81-6b59c8d3853d">
-                    <TableID>dbo_FactOrders</TableID>
-                    <ColumnID>OrderID</ColumnID>
-                  </Source>
-                </KeyColumn>
-              </KeyColumns>
-              <Type>Granularity</Type>
-            </Attribute>
-          </Attributes>
-        </Dimension>
         <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="bf69e5ed-a720-4cdf-acd0-9c8ae25f25dc">
           <CubeDimensionID>DimProducts</CubeDimensionID>
           <Attributes>
@@ -570,7 +552,26 @@
             </Attribute>
           </Attributes>
         </Dimension>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="44d1cd9e-1591-424a-932b-daa285d0155d">
+          <CubeDimensionID>DimOrders</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="f75a8f55-fcbf-48c4-887f-f2de59250be5">
+              <AttributeID>Order ID</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="2e60e1b4-820c-4d9c-a71d-2b022c431fc7">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c0b451fa-107a-42f2-8ed0-3d4b0154fbc9">
+                    <TableID>dbo_FactOrders</TableID>
+                    <ColumnID>OrderID</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
       </Dimensions>
+      <Partitions />
     </MeasureGroup>
   </MeasureGroups>
   <Source dwd:design-time-name="857029a1-5bd7-41d7-a6ec-ceaa5132ad3b">
