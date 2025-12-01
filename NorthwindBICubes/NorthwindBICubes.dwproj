@@ -6,6 +6,18 @@
     <Name>NorthwindBICubes.database</Name>
     <FullPath>NorthwindBICubes.database</FullPath>
   </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>DWNorthwindOrdersV1.cube</Name>
+      <FullPath>DWNorthwindOrdersV1.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>DWNorthwindOrdersV1.partitions</Name>
+          <FullPath>DWNorthwindOrdersV1.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
   <Dimensions>
     <ProjectItem>
       <Name>DimCustomers.dim</Name>
