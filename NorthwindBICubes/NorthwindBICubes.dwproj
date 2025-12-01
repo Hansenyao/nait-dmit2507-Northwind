@@ -9,11 +9,11 @@
   <Cubes>
     <ProjectItem>
       <Name>DWNorthwindOrdersV1.cube</Name>
-      <FullPath>DWNorthwindOrdersV1.cube</FullPath>
+      <FullPath>CubeNorthwindOrders.cube</FullPath>
       <Dependencies>
         <ProjectItem>
-          <Name>DWNorthwindOrdersV1.partitions</Name>
-          <FullPath>DWNorthwindOrdersV1.partitions</FullPath>
+          <Name>CubeNorthwindOrders.partitions</Name>
+          <FullPath>CubeNorthwindOrders.partitions</FullPath>
         </ProjectItem>
       </Dependencies>
     </ProjectItem>

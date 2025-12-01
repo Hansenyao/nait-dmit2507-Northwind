@@ -16,6 +16,11 @@ Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "NorthwindBICubes", "Northwi
 EndProject
 Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "DWNorthwindOrdersETL", "DWNorthwindOrdersETL\DWNorthwindOrdersETL.dtproj", "{7BBDC550-7BAA-CE8D-82D5-E76668811ACC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExcelReports", "ExcelReports", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+	ProjectSection(SolutionItems) = preProject
+		OrdersReport.xlsx = OrdersReport.xlsx
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Development|Default = Development|Default
