@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="NewDataSourceDWNorthwindOrders">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=Winncy-PC;Initial Catalog=DWNorthwindOrders;TrustServerCertificate=True</ConnectString>
+  </ConnectionProperties>
+  <DataSourceID>0818cd88-fb22-4ab7-b64c-5fd848a9a3e6</DataSourceID>
+</RptDataSource>

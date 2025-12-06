@@ -21,16 +21,47 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ExcelReports", "ExcelReport
 		OrdersReport.xlsx = OrdersReport.xlsx
 	EndProjectSection
 EndProject
+Project("{F14B399A-7131-4C87-9E4B-1186C45EF12D}") = "NorthwindBIReports", "NorthwindBIReports\NorthwindBIReports.rptproj", "{CA8A4B22-C30C-3290-E226-562EE550DE0E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Default = Debug|Default
+		DebugLocal|Default = DebugLocal|Default
 		Development|Default = Development|Default
+		Release|Default = Release|Default
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{001FF92E-05B4-4E1B-9749-8FF55B194679}.Debug|Default.ActiveCfg = Development
+		{001FF92E-05B4-4E1B-9749-8FF55B194679}.Debug|Default.Build.0 = Development
+		{001FF92E-05B4-4E1B-9749-8FF55B194679}.Debug|Default.Deploy.0 = Development
+		{001FF92E-05B4-4E1B-9749-8FF55B194679}.DebugLocal|Default.ActiveCfg = Development
+		{001FF92E-05B4-4E1B-9749-8FF55B194679}.DebugLocal|Default.Build.0 = Development
+		{001FF92E-05B4-4E1B-9749-8FF55B194679}.DebugLocal|Default.Deploy.0 = Development
 		{001FF92E-05B4-4E1B-9749-8FF55B194679}.Development|Default.ActiveCfg = Development
 		{001FF92E-05B4-4E1B-9749-8FF55B194679}.Development|Default.Build.0 = Development
 		{001FF92E-05B4-4E1B-9749-8FF55B194679}.Development|Default.Deploy.0 = Development
+		{001FF92E-05B4-4E1B-9749-8FF55B194679}.Release|Default.ActiveCfg = Development
+		{001FF92E-05B4-4E1B-9749-8FF55B194679}.Release|Default.Build.0 = Development
+		{001FF92E-05B4-4E1B-9749-8FF55B194679}.Release|Default.Deploy.0 = Development
+		{7BBDC550-7BAA-CE8D-82D5-E76668811ACC}.Debug|Default.ActiveCfg = Development
+		{7BBDC550-7BAA-CE8D-82D5-E76668811ACC}.Debug|Default.Build.0 = Development
+		{7BBDC550-7BAA-CE8D-82D5-E76668811ACC}.DebugLocal|Default.ActiveCfg = Development
+		{7BBDC550-7BAA-CE8D-82D5-E76668811ACC}.DebugLocal|Default.Build.0 = Development
 		{7BBDC550-7BAA-CE8D-82D5-E76668811ACC}.Development|Default.ActiveCfg = Development
 		{7BBDC550-7BAA-CE8D-82D5-E76668811ACC}.Development|Default.Build.0 = Development
+		{7BBDC550-7BAA-CE8D-82D5-E76668811ACC}.Release|Default.ActiveCfg = Development
+		{7BBDC550-7BAA-CE8D-82D5-E76668811ACC}.Release|Default.Build.0 = Development
+		{CA8A4B22-C30C-3290-E226-562EE550DE0E}.Debug|Default.ActiveCfg = Debug
+		{CA8A4B22-C30C-3290-E226-562EE550DE0E}.Debug|Default.Build.0 = Debug
+		{CA8A4B22-C30C-3290-E226-562EE550DE0E}.Debug|Default.Deploy.0 = Debug
+		{CA8A4B22-C30C-3290-E226-562EE550DE0E}.DebugLocal|Default.ActiveCfg = DebugLocal
+		{CA8A4B22-C30C-3290-E226-562EE550DE0E}.DebugLocal|Default.Build.0 = DebugLocal
+		{CA8A4B22-C30C-3290-E226-562EE550DE0E}.Development|Default.ActiveCfg = Release
+		{CA8A4B22-C30C-3290-E226-562EE550DE0E}.Development|Default.Build.0 = Release
+		{CA8A4B22-C30C-3290-E226-562EE550DE0E}.Development|Default.Deploy.0 = Release
+		{CA8A4B22-C30C-3290-E226-562EE550DE0E}.Release|Default.ActiveCfg = Release
+		{CA8A4B22-C30C-3290-E226-562EE550DE0E}.Release|Default.Build.0 = Release
+		{CA8A4B22-C30C-3290-E226-562EE550DE0E}.Release|Default.Deploy.0 = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
